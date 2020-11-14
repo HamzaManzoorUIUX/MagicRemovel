@@ -1,0 +1,166 @@
+.sfhjkahrbtn{
+    background: #EBF7D3 !important;
+box-shadow: 0px 2px 4px rgba(124, 192, 241, 0.25) !important;
+border-radius: 6px !important;
+color: #A6C94A !important;
+border: none !important;
+height: 47px !important;
+margin-top: 32px !important;
+margin-bottom: 17px !important;
+} 
+.sfhjkahrbtn img{
+margin-right: 8px !important;
+}
+.upd_box{
+    background: #FFFFFF !important;
+box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.07) !important;
+border-radius: 12px !important;
+max-width: 282px;
+width: 100%;
+}
+.borderW235px{
+    max-width: 235px;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1)
+}
+.rightUploader{
+    margin-top: 112px;
+}
+.border-dotted{
+    box-shadow: none !important;
+    border: 1px dashed  rgba(0, 0, 0, 0.1) !important;
+    max-width: 320px !important;
+}
+.font-11px{
+    font-size: 11px !important;
+}
+.UploadGridImg{
+    width: 95px;
+    margin: 0px 10px;
+}
+.des_box{
+background-image: url('/assets/media/cardNoOne.png');
+background-size: cover;
+background-repeat: no-repeat;
+}
+.des_box2{
+background-image: url('/assets/media/CardNoTwo.png');
+}
+.web-logo{
+    width: 14rem;
+}
+.myContainer{
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+}
+.process-box-main{
+padding: 0 !important;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+.product-heading-cs,.Products-cs{
+    padding: 0px !important;
+}
+.product-heading-cs ul,.Products-cs ul{
+    padding: 0 !important;
+}
+.footer-corner-ul li{
+    float: right;
+}
+.dropdown-toggle::after{
+    margin-top: 10px;
+}
+.loginLogo{
+    width: 200px;
+    margin:0 auto 30px;
+    display: block;
+
+}
+.mddfjiiuw{
+    margin-left: 0px;
+}
+.mddfjiiuw button{
+    margin: 0px !important;
+    display: flex;
+    align-items: center;
+    border-radius: 0;
+}
+.mddfjiiuw label{
+    margin: 0px !important;
+    display: flex;
+    align-items: center;
+}
+.form-wrapper{
+    width: 100%;
+}
+.full-input1 {
+    border: 1px solid #C9CFDA;
+    border-radius: 2px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    min-height: 55px;
+    margin: 0px 0px 20px !important;
+    padding-bottom: 7px;
+}
+.full-input1 label {
+    padding: 7px 10px 0px;
+    margin-bottom: 0px;
+    color: #4A4A4A;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+}
+.full-input1 input{
+    padding: 0 10px;
+    background-color: transparent;
+    border: 0;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 2px;
+    color: #333;
+    font-size: 12px;
+}
+.myLoginPortion{
+    max-width: 490px;
+    min-width: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 110px 70px 70px;
+    min-height: 100vh;
+}
+.loginCenter{
+ width: 100%;
+ margin: 0px !important;
+}
+.loginBackGround{
+    background-image: url('/assets/media/back1.png');
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    background-position: right;
+}
+@media(max-width:1600px){
+    .myContainer{
+        max-width: 1200px;
+    }
+}
+@media(max-width:1200px){
+    .myContainer{
+        max-width: 1020px;
+    }
+}
+@media(max-width:991px){
+    .rightUploader{
+        margin-top: 1.5rem !important;
+    }
+    .myContainer{
+        width: 90%;
+    }
+}

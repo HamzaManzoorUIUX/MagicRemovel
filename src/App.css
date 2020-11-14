@@ -1,0 +1,481 @@
+@import "./styles/Navbar1.css";
+@import "./styles/upload.css";
+@import "./styles/login.css";
+@import "./styles/procedure.css";
+@import "./styles/matchless.css";
+@import "./styles/review.css";
+@import "./styles/footer.css";
+@import "./styles/apis.css";
+@import "./styles/contact.css";
+@import "./styles/pricing.css";
+@import "./styles/blog.css";
+@import "./styles/homenew.css";
+@import "./styles/backgroundapi.css";
+@import "./styles/uploadimg.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+*{
+    font-family: 'Ubuntu';
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+   .edit-p-bar
+   {
+       margin:20px 0px 0px 0px!important;
+       
+   }
+  }
+
+
+
+ @media only screen and (max-width: 991px) {
+    .cstMtrt4
+    {
+        max-width: 100%!important;
+        flex: 0 0 100%!important;
+        
+    }
+ .form-inline {
+    display: initial!important;
+   
+       
+   }
+   .form-inline a
+   {
+     margin-left: 26px;
+   }
+  }
+
+   @media only screen and (max-width: 992px) {
+    .s3edwdass
+  {
+      display: none;
+  }
+  .rpslogin-le
+{
+  width: 100%!important;
+  margin: 15%;
+  margin-top: 0%;
+}
+   }
+   
+   @media only screen and (max-width: 442px) {
+    .s3edwdass
+  {
+      display: none;
+  }
+  .rpslogin-le
+{
+  width: 100%!important;
+  margin: -5%;
+  margin-top: 0%;
+}
+   }
+
+   .form-wrapper {
+    width: 100%;
+  }
+  .full-input1 {
+    display: inline-block;
+    padding: 3px;
+    border: 2px solid #c9cfda;
+    margin: 10px;
+    width: 98%;
+  }
+  .full-input1 input {
+    outline: none;
+    border: none;
+    display:block;
+    line-height: 1.2em;
+    width: 100%;
+    font-size: 14pt;
+
+  }
+  .full-input1 label {
+    display: block;
+    font-size: 12px;
+    color:#4a4a4a;
+  }
+
+  .mddfjiiuw
+  {
+    margin-left: 19px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btnxto
+  {
+    background-color: rgb(53, 108, 201)!important;
+    padding-left: 35px!important;
+    padding-right: 35px!important;
+    margin: 4px!important;
+    text-align: center!important;
+    justify-content: center!important;
+    text-transform: uppercase!important;
+  }
+  
+  .option-btn .btn .active .btn-
+  {
+    padding: 14px;
+  }
+
+  .upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+
+
+
+
+
+
+
+
+  .img-comp-container {
+    position: relative;
+    height: 200px; /*should be the same height as the images*/
+  }
+  
+  .img-comp-img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    overflow:hidden;
+  }
+  
+  .img-comp-img img {
+    display:block;
+    vertical-align:middle;
+  }
+  
+  .img-comp-slider {
+    position: absolute;
+    z-index:9;
+    cursor: ew-resize;
+    /*set the appearance of the slider:*/
+    width: 40px;
+    height: 40px;
+    background-color: #2196F3;
+    opacity: 0.7;
+    border-radius: 50%;
+  }
+
+
+
+
+
+  .img-comp-container {
+    position: relative;
+  }
+  
+  .img-comp-img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    overflow:hidden;
+  }
+  
+  .img-comp-img img {
+    display:block;
+    vertical-align:middle;
+  }
+  
+  .img-comp-slider {
+    position: absolute;
+    z-index:9;
+    cursor: ew-resize;
+    /*set the appearance of the slider:*/
+    width: 40px;
+    height: 40px;
+    background-color: #2196F3;
+    opacity: 0.7;
+    border-radius: 50%;
+  }
+
+  .cstsdfsdfh23
+  {
+    --rcs-handle-width: 2px;
+              --rcs-handle-box: 3.5rem;
+              position: relative;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: var(--rcs-handle-width);
+              height: 100%;
+              box-shadow: none;
+              background-color: #ffffff;
+              cursor: pointer;
+            
+  }
+  .dsfjai323
+  {
+    position: absolute;
+                width: var(--rcs-handle-box);
+                height: var(--rcs-handle-box);
+                border-radius: 100%;
+                overflow: hidden;
+  
+                
+  }
+
+  .dsfjai323::before,
+  ::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    width: inherit;
+    height: inherit;
+    backdrop-filter: blur(0.5rem);
+  }
+  .sdfjadih233
+  {
+    position: absolute;
+                display: grid;
+                align-items: center;
+                justify-content: center;
+                grid-auto-flow: column;
+                width: var(--rcs-handle-box);
+                height: var(--rcs-handle-box);
+                border: var(--rcs-handle-width) solid #ffffff;
+                gap: 0.65rem;
+                backdrop-filter: blur(0.5rem);
+                border-radius: 100%;
+                overflow: hidden;
+  
+  }
+
+  .sdfjadih233::before,
+  ::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+   
+    border-top: 0.5rem solid transparent;
+    border-bottom: 0.5rem solid transparent;
+  }
+
+  .sdfjadih233::before {
+    border-right: 0.65rem solid #ffffff;
+    top: 37%;
+    left: 0%;
+    margin-left: -16px;
+
+  }
+
+  .sdfjadih233::after {
+    border-left: 0.65rem solid #ffffff;
+    top: 37%;
+    left: 60%;
+  }
+
+
+  
+/*footer style*/
+.footer-cs{
+	width: 100% !important;
+	background-color: #f7f9fa;
+	color: #b1b1b1;
+
+}
+.product-heading-cs h5{
+	font-style: normal;
+	    font-family: Ubuntu;
+      color: #54616c;
+      font-size: 18px;
+    font-weight: 700;
+}
+.product-heading-cs ul{
+	list-style: none;
+}
+
+.footer-corner-ul
+{
+	list-style: none;
+}
+
+.footer-corner-ul li
+{
+	float: left;
+	margin-right: 10px;
+}
+.footer-corner-ul li a
+{
+	font-size: 14px;
+	text-decoration: none;
+	color: #54616c;
+}
+
+
+.Products-cs ul{
+	list-style: none;
+	padding-left: -100px;
+  margin-top: 7px;
+}
+.Products-cs ul li{
+	padding-top: 10px !important
+}
+.Products-cs ul li a{
+	color: #54616c;
+	text-decoration: none;
+	font-size: 14px !important;
+}
+.Products-cs ul li :hover{
+	padding-left: 10px !important;
+	color:black;
+	transition:0.3s ease-in-out;
+}
+
+.Products-cs ul li :hover a{
+	
+	color:black;
+	
+}
+
+
+.class-border-cs{
+	border-left: 1px solid #696969;
+  	padding: 0px 0px 0px 10px;
+}
+.Subscribe-cs ul{
+	list-style: none;
+  margin-top: 10px;
+}
+
+.bg-color-cs{
+	background-color: #444444 !important;
+	border-color: #444444 !important;
+}
+
+.hr-line-cs{
+	border: 1px solid #484848;
+}
+
+.col-margin-cs{
+	margin-top: 50px !important;
+}
+
+.cont-footer-cs
+{
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.phone-no-cs
+{
+  font-size: 20px;
+  color: #c7c7c7 !important;
+}
+
+
+.btn-footer
+{
+	background-color: #54616c !important;
+	width: 38px;
+	height: 38px;
+	margin-right: -5px;
+	padding: 7px !important;
+	font-size: 17px !important;
+}
+
+.btn-lang
+{
+	border:1px solid #54616c !important;
+	color: #54616c !important;
+	background-color: #f7f9fa !important;
+	box-shadow: none !important; 
+}
+
+
+
+
+
+
+
+
+.loader-overlay {
+  -ms-opacity: 0.9;
+  background: #444;
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  vertical-align: middle;
+  width: 100%;
+  z-index: 100000;
+}
+
+.loader-content {
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loader-text {
+  color: #FFF;
+  font-size: 18px;
+  text-align: center;
+}
+
+.loader-text h1 {
+  color: #FFF;    font-size: 4rem;
+  font-weight: bolder;
+}
+
+
+
+.bxsasdhsah{
+  -webkit-box-shadow: 3px 2px 34px -9px rgba(92,92,92,1);
+-moz-box-shadow: 3px 2px 34px -9px rgba(92,92,92,1);
+box-shadow: 3px 2px 34px -9px rgba(92,92,92,1);
+
+}
+
+.mthis-min
+{
+  margin-top: -18px;
+}
+.ncasrgbdsa
+{
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #f8a82a;
+}
+.sfhjkahrbtn
+{
+  cursor: pointer;
+    background-color: #f8a82a!important;
+    border-color: #f8a82a!important;
+    padding-left: 20px!important;
+    padding-right: 21px!important;
+}
+
+
+.rpslogin-le
+{
+  width: 25.5%;
+}
+.rpslogin-ri
+{
+  width: 74.5%;
+}
