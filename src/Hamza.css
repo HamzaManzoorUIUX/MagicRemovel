@@ -107,6 +107,7 @@ align-items: flex-end;
     min-height: 55px;
     margin: 0px 0px 20px !important;
     padding-bottom: 7px;
+    max-width: 450px;
 }
 .full-input1 label {
     padding: 7px 10px 0px;
@@ -162,5 +163,26 @@ align-items: flex-end;
     }
     .myContainer{
         width: 90%;
+    }
+    .myLoginPortion{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media(max-width:500px){
+    .loginBackGround{
+display: none;
+    }
+    .myLoginPortion{
+        max-width: 100% !important;
+    }
+}
+@media(max-width:480px){
+    .mddfjiiuw{
+        display: flex;
+        flex-direction: column;
+    }
+    .mddfjiiuw label{
+        margin-top: 10px !important;     
     }
 }
